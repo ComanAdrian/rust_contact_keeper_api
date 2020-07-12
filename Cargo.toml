@@ -1,0 +1,13 @@
+[package]
+name = "rust_contact-keeper_api"
+version = "0.1.0"
+authors = ["Adrian Coman <adrian92coman@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0.2", features = ["macros"] }
+warp = "0.2"
+jsonwebtoken = "7"
+serde = {version = "1.0", features = ["derive"] }
+bcrypt = "0.8"
+mongodb = "1.0.0"
